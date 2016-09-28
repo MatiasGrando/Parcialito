@@ -20,7 +20,7 @@ int main ()
     char a;
     cin>>a;
     int udp=3;
-    int cant=(udp/3)+2;
+    int cant=(udp%3)+2;
     int*x;
     int*y;
     int*z;
